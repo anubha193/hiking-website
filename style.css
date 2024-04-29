@@ -1,0 +1,1482 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+}
+.nav-bar {
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem 3rem 3rem;
+  align-items: center;
+  position: relative;
+}
+nav .nav-cutting-img {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  color: var(--grey);
+  width: 60%;
+  font-weight: 520;
+}
+nav li {
+  cursor: pointer;
+  font-weight: 550;
+  font-family: sans-serif;
+}
+nav .search-container {
+  display: flex;
+  font-size: 1.2rem;
+  position: relative;
+}
+nav .nav-container .search-bar {
+  height: 45px;
+  width: 181px;
+  background-color: #ccc5c1;
+  border-radius: 50px;
+  border-color: #ccc5c1;
+  border: none;
+  padding-right: 3.5rem;
+  padding-left: 10px;
+}
+nav button {
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+nav button {
+  background-color: #ccc5c1;
+  color: var(--grey);
+  border: none;
+  border-radius: 0 3rem 3rem 0;
+  position: absolute;
+  font-size: 1.5rem;
+  cursor: pointer;
+  right: 0.1rem;
+  top: 0;
+  bottom: 0;
+  width: max-content;
+  padding-right: 1rem;
+  height: 95%;
+  margin: auto;
+}
+
+.second-section {
+  position: relative;
+  z-index: -2;
+}
+.second-section img {
+  width: 100%;
+}
+.second-section .hiking-container {
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 40%;
+}
+.second-section .hiking-container .main-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.second-section .hiking-container .sub-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.second-section .hiking-container h3 {
+  color: #fcb571;
+  font-size: 6.4vw;
+  line-height: 1.1;
+  text-shadow: 3px -3px 4px rgb(188 188 188);
+}
+.second-section .sub-heading button {
+  background-color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-weight: 900;
+  border-radius: 3rem;
+  color: #655246;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 182px;
+  height: 59px;
+  letter-spacing: 0;
+}
+.second-section .hiking-container .main-heading .sub-heading {
+  font-weight: 550;
+  font-size: 1.4vw;
+  letter-spacing: 4px;
+  font-style: italic;
+}
+.second-section .hiking-container .sub-heading .text {
+  font-style: italic;
+  font-size: 20px;
+}
+.second-section .hiking-cutting-img {
+  width: 100%;
+  position: absolute;
+  bottom: -3rem;
+  z-index: 1;
+  filter: drop-shadow(0px -5px 6px rgba(0, 0, 0, 0.4));
+}
+.third-section {
+  position: relative;
+  margin-bottom: 6rem;
+  background-color: white;
+}
+.third-section .center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.third-section .center-content h1 {
+  color: orange;
+  font-size: 3rem;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.third-section .center-content .para {
+  color: #897f75;
+  font-size: 1.3rem;
+  width: 60%;
+  margin: auto;
+}
+.third-section .center-content .card-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+  margin: 2rem 0;
+}
+.third-section .card-container .card {
+  background-color: rgb(137, 127, 117);
+}
+.third-section .card-container .card .card-bottom {
+  color: white;
+  text-align: left;
+  padding: 1.5rem 0.8rem 2.5rem 0.8rem;
+}
+.third-section .card-container .card .card-bottom p {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  margin-right: 0.2rem;
+}
+.third-card-btn {
+  color: white;
+  background-color: rgb(137, 127, 117);
+  border: none;
+  padding: 1.2rem;
+  width: 15rem;
+  font-size: 1.2rem;
+  font-weight: 750;
+  border-radius: 3rem;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.third-section .leaves {
+  position: absolute;
+  bottom: -10rem;
+  width: 38%;
+}
+.fourth-section .sub-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.fourth-section .sub-container .left-container {
+  width: 50%;
+}
+.fourth-section .sub-container .left-container img,
+.fourth-section .sub-container .right-container img {
+  height: 100%;
+}
+.fourth-section .sub-container .right-container {
+  width: 50%;
+  background-color: rgb(137, 127, 117);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding: 35px;
+  gap: 20px;
+}
+.fourth-section .sub-container .right-container .heading {
+  font-size: 3.2rem;
+}
+.fourth-section .sub-container .right-container .content {
+  font-size: 1.4rem;
+}
+.fourth-section .sub-container .right-container .btn {
+  color: white;
+  background-color: #ec9c51;
+  border: none;
+  padding: 1.2rem;
+  width: 15rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.fifth-section {
+  color: white;
+  background-color: #9c938dd0;
+  text-align: center;
+  position: relative;
+}
+.fifth-section h2 {
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  font-weight: 550;
+  font-size: 3rem;
+}
+.fifth-section p {
+  width: 70%;
+  margin: auto;
+  font-size: 1.3rem;
+  color: #dcdcdc;
+  padding-bottom: 15rem;
+}
+
+.fifth-section .leaves-shadow {
+  position: absolute;
+  bottom: 18vw;
+  width: 35%;
+  opacity: 0.5;
+  bottom: 63px;
+}
+.sixth-container {
+  position: relative;
+}
+.sixth-container .top {
+  position: absolute;
+  width: 100%;
+  top: -5rem;
+  z-index: 1;
+  filter: drop-shadow(0px -5px 6px rgba(0, 0, 0, 0.4));
+}
+.sixth-container .heading {
+  font-weight: 550;
+  position: absolute;
+  top: 43%;
+  right: 5%;
+  z-index: 1;
+  text-shadow: 4px -4px 5px rgb(188 188 188);
+}
+.sixth-container .heading .heading1 {
+  color: #fcb571;
+  font-style: italic;
+  font-size: 4rem;
+}
+.sixth-container .heading .heading2 {
+  font-style: italic;
+  font-size: 3.9rem;
+  color: #403f39;
+  line-height: 1;
+}
+.sixth-container .bottom-imgg {
+  position: absolute;
+  z-index: 1;
+  bottom: -8%;
+  width: 100%;
+  filter: drop-shadow(0px -5px 6px rgba(0, 0, 0, 0.4));
+}
+.seventh-section {
+  position: relative;
+  z-index: 4;
+  background-color: white;
+}
+
+.seventh-section .card-container {
+  display: flex;
+  justify-content: center;
+
+  gap: 2rem;
+
+  padding-top: 4.5%;
+}
+.seventh-section .card-container .card {
+  width: 25%;
+}
+.seventh-section .card-container .card h2 {
+  color: orange;
+  margin-bottom: 0.8rem;
+}
+.seventh-section .card-container .card p {
+  color: rgb(69, 61, 61);
+  font-size: 1.25rem;
+}
+.seventh-section .quote {
+  text-align: center;
+  width: 60%;
+  margin: 10rem auto 0 auto;
+  color: #3d3d3d;
+}
+.seventh-section .quote .h2 {
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 0.8;
+}
+.seventh-section .quote p {
+  font-size: 1.3rem;
+  font-weight: 550;
+  line-height: 1.4;
+}
+.seventh-section .quote .author {
+  font-weight: 600;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  padding-bottom: 5rem;
+}
+.seventh-section .bottom-title-img {
+  position: absolute;
+  bottom: -212px;
+  left: 0px;
+  z-index: 4;
+  width: 100%;
+}
+.seventh-section .leaves {
+  position: absolute;
+  right: 0;
+  bottom: -9rem;
+  width: 40%;
+  opacity: 0.5;
+}
+.eight-section {
+  position: relative;
+  z-index: -0;
+  width: 100%;
+  background-color: #fcb571;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.eight-section h2 {
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.eight-section .para {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  color: #505e63;
+  font-size: 1.35rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.eight-section .search-bar {
+  width: 55%;
+  padding-bottom: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.eight-section .search-bar input {
+  width: 70%;
+  height: 3.4rem;
+  border: none;
+  padding-left: 2.6vw;
+  border-radius: 3rem 0 0 3rem;
+  font-size: 1.4rem;
+}
+.eight-section .search-bar button {
+  width: max-content;
+  height: 3.4rem;
+  background-color: #403f39;
+  border: none;
+  color: white;
+  border-radius: 3rem;
+  position: relative;
+  left: -1.2rem;
+  padding: 0.5rem 1.7rem;
+  font-weight: 600;
+  font-size: 1.35rem;
+}
+.eight-section .last-img {
+  width: 100%;
+  position: absolute;
+  bottom: -90px;
+  z-index: 3;
+}
+.footer-section {
+  background-color: #897f75;
+  padding: 129px 0px;
+  padding-top: 225px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+footer .left-footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 30%;
+}
+footer .left-footer .top-title {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+footer .left-footer .middle-title {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+footer .left-footer .icons {
+  display: flex;
+  gap: 10px;
+}
+footer .left-footer .icons .icon {
+  background-color: white;
+  color: #897f75;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+footer .left-footer .icons .insta-icon img {
+  padding: 5px;
+}
+footer .right-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+footer .right-footer .footer-content .footer-content-heading {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+footer .right-footer .footer-content .footer-content-data {
+  line-height: 1.7;
+}
+footer .right-footer .footer-content .footer-content-data a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+}
+.seventh-section .quote h2 {
+  font-size: 4rem;
+}
+@media screen and (min-width: 320px) {
+  .third-section .center-content .card-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 2rem 0;
+  }
+  .fourth-section .sub-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  .fourth-section .sub-container .left-container {
+    width: 100%;
+  }
+  .fourth-section .sub-container .right-container {
+    width: 100%;
+    margin-top: -4px;
+  }
+  #second {
+    flex-direction: column-reverse;
+  }
+  .navbar {
+    display: none;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-bar .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-bar .nav-container {
+    width: 100%;
+  }
+  .nav-bar .search-bar {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: #ccc5c1;
+    border: none;
+    padding-right: 3rem;
+    padding-left: 10px;
+  }
+  .nav-bar .search-container {
+    height: 20%;
+  }
+  .nav-bar .search-bar {
+    padding-right: 3rem;
+  }
+  .nav-bar button {
+    font-size: 1rem;
+  }
+  nav .nav-cutting-img {
+    position: absolute;
+    inset: 0;
+    top: 94px;
+    z-index: -1;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .left-footer {
+    width: 100%;
+  }
+  footer .right-footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 35px;
+    padding-left: 10px;
+  }
+  .seventh-section .card-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 2rem;
+
+    padding-top: 4.5%;
+  }
+  .seventh-section .card-container .card {
+    width: 100%;
+  }
+  .second-section .sub-heading button {
+    font-size: 9px;
+    height: 32px;
+    width: 112px;
+  }
+  .second-section .hiking-container .sub-heading .text {
+    display: none;
+  }
+  .second-section .hiking-container {
+    gap: 15px;
+    top: 20%;
+  }
+  .second-section .hiking-container .main-heading .sub-heading {
+    top: 45%;
+    font-size: 0.674rem;
+    letter-spacing: 1px;
+  }
+  .third-section .center-content h1 {
+    font-size: 1.6rem;
+  }
+  .third-section .center-content .para {
+    font-size: 0.8rem;
+    width: 80%;
+    margin: auto;
+  }
+  .fourth-section {
+    gap: 15px;
+  }
+  .second-section .hiking-cutting-img {
+    bottom: -1rem;
+  }
+
+  .fourth-section .sub-container .right-container .heading {
+    font-size: 1.7rem;
+  }
+  .fourth-section .sub-container .right-container .content {
+    font-size: 1rem;
+  }
+  .fourth-section .sub-container .right-container .btn {
+    padding: 9px;
+    width: 11rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .fifth-section {
+    height: max-content;
+  }
+  .fifth-section h2 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+  .fifth-section p {
+    font-size: 1rem;
+    padding-bottom: 5rem;
+  }
+  .sixth-container .top {
+    top: -3rem;
+  }
+  .sixth-container .heading {
+    top: auto;
+    bottom: 33%;
+    right: 3%;
+    text-align: right;
+    text-shadow: 1px -1px 2px rgb(188 188 188);
+  }
+  .sixth-container .heading .heading1,
+  .sixth-container .heading .heading2 {
+    font-size: 1rem;
+  }
+  .seventh-section .bottom-title-img {
+    bottom: -47px;
+  }
+  .eight-section .last-img {
+    bottom: -36px;
+  }
+  nav li {
+    font-size: 0.65rem;
+  }
+  .logo {
+    width: 15%;
+  }
+  nav {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  footer .left-footer .top-title {
+    font-size: 1.3rem;
+  }
+  footer .right-footer .footer-content .footer-content-heading {
+    font-size: 1.3rem;
+  }
+  footer .left-footer .middle-title {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  footer .right-footer .footer-content .footer-content-data a {
+    font-size: 1rem;
+  }
+  .eight-section h2 {
+    font-size: 2rem;
+  }
+  .eight-section .para {
+    width: 80%;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    line-height: 1.4;
+  }
+  .eight-section .search-bar {
+    width: 90%;
+  }
+  .eight-section .search-bar input {
+    font-size: 0.8rem;
+    height: 2.5rem;
+  }
+  .eight-section .search-bar button {
+    font-size: 0.7rem;
+    height: 2.5rem;
+    width: 8rem;
+  }
+  .footer-section {
+    background-color: rgb(137, 127, 117);
+    padding: 105px 0px 70px;
+  }
+  .seventh-section .card-container .card p {
+    color: rgb(69, 61, 61);
+    font-size: 1.1rem;
+    opacity: 0.6;
+  }
+  .seventh-section .quote {
+    width: 80%;
+    margin: 4rem auto 0 auto;
+  }
+  .eight-section {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+  .third-section .leaves {
+    position: absolute;
+    bottom: 3rem;
+    width: 38%;
+  }
+  .fifth-section .leaves-shadow {
+    width: 60%;
+  }
+  .seventh-section .leaves {
+    right: 0;
+    bottom: 0rem;
+    width: 60%;
+  }
+  .second-section .hiking-container h3 {
+    font-size: 6.1vw;
+  }
+  .third-section .card-container .card .card-bottom p {
+    font-size: 1rem;
+  }
+  .third-card-btn {
+    padding: 0.8rem;
+    width: 12rem;
+    font-size: 0.8rem;
+  }
+  .third-section .center-content {
+    gap:9px;
+    }
+}
+@media screen and (min-width: 375px) {
+  .seventh-section .bottom-title-img {
+    bottom: -55px;
+  }
+}
+@media screen and (min-width: 425px) {
+  .seventh-section .bottom-title-img {
+    bottom: -62px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .third-section .center-content .card-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%;
+    margin: 2rem 0;
+  }
+  .fourth-section .sub-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    max-height: 98vh;
+  }
+  .fourth-section .sub-container .left-container {
+    width: 50%;
+  }
+  .fourth-section .sub-container .right-container {
+    width: 50%;
+    padding: 27px;
+    margin-top: 0;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .left-footer {
+    width: 30%;
+  }
+  footer .right-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    gap: 0px;
+  }
+  .seventh-section .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 2rem;
+
+    padding-top: 4.5%;
+  }
+  .seventh-section .card-container .card {
+    width: 27%;
+  }
+  .second-section .sub-heading button {
+    padding: 0px 0px;
+    width: 127px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+  .second-section .hiking-container {
+    gap: 13px;
+    top: 18%;
+  }
+  .third-section .center-content h1 {
+    color: orange;
+    font-size: 1.6rem;
+  }
+  .third-section .center-content .para {
+    font-size: 1.3rem;
+    width: 60%;
+    margin: auto;
+  }
+  .fourth-section {
+    gap: 0px;
+  }
+  #second {
+    flex-direction: row;
+  }
+  .third-section .center-content h1 {
+    font-size: 3rem;
+  }
+  .second-section .hiking-container .main-heading .sub-heading {
+    font-weight: 550;
+    font-size: 1.4vw;
+    letter-spacing: 4px;
+    font-style: italic;
+  }
+  .second-section .hiking-cutting-img {
+    bottom: -3rem;
+  }
+  .fourth-section .sub-container .right-container .heading {
+    font-size: 1.6rem;
+  }
+  .fourth-section .sub-container .right-container .content {
+    font-size: 0.8rem;
+  }
+  .fourth-section .sub-container .right-container .btn {
+    padding: 10px;
+    width: 11rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .fifth-section h2 {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+  .fifth-section p {
+    width: 70%;
+    margin: auto;
+    font-size: 1.3rem;
+    padding-bottom: 15rem;
+  }
+  .sixth-container .top {
+    top: -5rem;
+  }
+  .sixth-container .heading .heading1,
+  .sixth-container .heading .heading2 {
+    font-size: 2rem;
+  }
+  .sixth-container .heading {
+    font-weight: 550;
+    position: absolute;
+    top: 43%;
+    right: 5%;
+    z-index: 1;
+    text-shadow: 4px -4px 5px rgb(188 188 188);
+  }
+  .seventh-section .bottom-title-img {
+    bottom: -85px;
+  }
+  .eight-section .last-img {
+    bottom: -63px;
+  }
+  nav {
+    padding: 1rem 3rem 3rem 3rem;
+  }
+  nav li {
+    font-size: 0.7rem;
+  }
+  .logo {
+    width: 11%;
+  }
+  .footer-section {
+    background-color: rgb(137, 127, 117);
+    padding: 225px 0px 129px;
+  }
+  nav .nav-container .search-bar {
+    height: 40px;
+    width: 141px;
+  }
+  nav .nav-container {
+    width: 82%;
+  }
+  nav .nav-cutting-img {
+    top: 67px;
+  }
+  .seventh-section .card-container .card p {
+    font-size: 1rem;
+    font-size: 1.1rem;
+    line-height: 23px;
+  }
+  .second-section .hiking-container .sub-heading .text {
+    display: block;
+    font-size: 0.8rem;
+    top: 59%;
+  }
+  .second-section .hiking-container h3 {
+    font-size: 6.3vw;
+  }
+  .second-section .hiking-container .sub-heading {
+    gap: 10px;
+  }
+  .seventh-section .quote {
+    text-align: center;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    color: #3d3d3d;
+  }
+  .eight-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .third-section .leaves {
+    position: absolute;
+    bottom: -10rem;
+    width: 38%;
+  }
+  .fifth-section .leaves-shadow {
+    width: 40%;
+    bottom: 169px;
+  }
+  .seventh-section .leaves {
+    position: absolute;
+    right: 0;
+    bottom: -9rem;
+    width: 40%;
+    opacity: 0.5;
+  }
+  .seventh-section .card-container {
+    width: 100%;
+  }
+  footer .left-footer .middle-title {
+    font-size: 0.8rem;
+  }
+  footer .right-footer .footer-content .footer-content-data a {
+    font-size: 0.75rem;
+  }
+  .third-card-btn {
+    padding: 0.9rem;
+    width: 12rem;
+    font-size: 1rem;
+  }
+  #second .right-container{
+    padding-left: 4rem;
+  }
+  .third-section .center-content {
+    gap:20px;
+  }
+ 
+}
+
+@media screen and (min-width: 768px) {
+  .third-section .center-content .card-container {
+    width: 90%;
+
+    margin: 2rem auto;
+  }
+  .fourth-section .sub-container .right-container .content {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .sixth-container .heading .heading1,
+  .sixth-container .heading .heading2 {
+    font-size: 2.5rem;
+  }
+  .eight-section h2 {
+    font-size: 3.3rem;
+  }
+  .eight-section .para {
+    width: 70%;
+    font-size: 1.3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .eight-section .search-bar {
+    width: 60%;
+  }
+  .eight-section .search-bar input {
+    font-size: 1.3rem;
+    height: 3rem;
+  }
+  .eight-section .search-bar button {
+    font-size: 1.3rem;
+    height: 3rem;
+    width: 12rem;
+  }
+  nav li {
+    font-size: 0.88rem;
+  }
+  .second-section .hiking-container {
+    gap: 21px;
+  }
+  .seventh-section .bottom-title-img {
+    bottom: -90px;
+  }
+  footer .right-footer {
+    width: 60%;
+  }
+  .third-card-btn {
+    padding: 0.9rem;
+    width: 13rem;
+    font-size: 1rem;
+  }
+  footer .left-footer {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  nav .nav-container {
+    width: 70%;
+  }
+  nav li {
+    font-size: 1rem;
+  }
+  .second-section .sub-heading button {
+    padding: 0px 0px;
+    width: 161px;
+    height: 49px;
+    font-size: 1rem;
+  }
+  .second-section .hiking-container .sub-heading .text {
+    font-size: 1.3rem;
+    opacity: 0.6;
+  }
+  .second-section .hiking-container .sub-heading {
+    gap: 18px;
+  }
+  .second-section .hiking-container .main-heading .sub-heading {
+    font-size: 1.7vw;
+  }
+  .fourth-section .sub-container .right-container .heading {
+    font-size: 2.5rem;
+  }
+  .fourth-section .sub-container .right-container .content {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  .sixth-container .heading .heading1,
+  .sixth-container .heading .heading2 {
+    text-align: right;
+    font-size: 3.2rem;
+  }
+  .seventh-section .card-container .card p {
+    font-size: 1.16rem;
+  }
+  .seventh-section .bottom-title-img {
+    bottom: -124px;
+  }
+  .eight-section {
+    padding-top: 17rem;
+  }
+  footer .left-footer {
+    width: 30%;
+  }
+  footer .left-footer .top-title {
+    font-size: 2rem;
+  }
+  footer .right-footer .footer-content .footer-content-heading {
+    font-size: 2rem;
+  }
+  footer .left-footer .middle-title {
+    font-size: 1.1rem;
+  }
+  footer .right-footer .footer-content .footer-content-data a {
+    font-size: 1.1rem;
+  }
+  #second .right-container {
+    padding-left: 5rem;
+  }
+  .seventh-section .card-container {
+    width: 80%;
+    margin: auto;
+  }
+  .third-card-btn {
+    padding: 1rem;
+    width: 16rem;
+    font-size: 1.2rem;
+  }
+  .sixth-container .heading {
+    top: 49%;
+}
+}
+@media screen and (min-width: 1440px) {
+  .fourth-section .sub-container .right-container .heading {
+    font-size: 3.2rem;
+  }
+  .fourth-section .sub-container .right-container .content {
+    font-size: 1.56rem;
+    margin-bottom: 1rem;
+  }
+  nav .nav-container {
+    width: 65%;
+  }
+  nav li {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 5%;
+  }
+  nav .nav-cutting-img {
+    top: 0px;
+  }
+  .second-section .hiking-container {
+    gap: 53px;
+  }
+  .second-section .hiking-container .sub-heading {
+    gap: 32px;
+  }
+  .second-section .hiking-container .sub-heading .text {
+    font-size: 1.2rem;
+  }
+  .third-section .center-content .card-container {
+    width: 70%;
+    margin: 2rem auto;
+  }
+  .fourth-section .sub-container .right-container {
+    padding: 35px;
+  }
+  .fourth-section .sub-container .right-container .btn {
+    padding: 23px;
+    width: 15rem;
+    font-size: 1.5rem;
+  }
+  .fifth-section h2 {
+    font-size: 3.2rem;
+  }
+  .fifth-section p {
+    font-size: 1.7rem;
+  }
+  .sixth-container .heading .heading1,
+  .sixth-container .heading .heading2 {
+    text-align: right;
+    font-size: 4rem;
+  }
+  .seventh-section .card-container .card h2 {
+    font-size: 2rem;
+  }
+  .seventh-section .card-container .card p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+  .seventh-section .quote {
+    font-size: 3rem;
+  }
+  .seventh-section .bottom-title-img {
+    bottom: -140px;
+  }
+  .eight-section {
+    padding: 20rem 0rem;
+  }
+  .eight-section h2 {
+    font-size: 4rem;
+  }
+  .eight-section .para {
+    width: 50%;
+    font-size: 1.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .eight-section .search-bar {
+    width: 40%;
+  }
+  .eight-section .search-bar input {
+    font-size: 1.6rem;
+    height: 4rem;
+  }
+  .eight-section .search-bar button {
+    font-size: 1.6rem;
+    height: 4rem;
+    width: max-content;
+  }
+  footer .right-footer .footer-content .footer-content-heading {
+    font-size: 2rem;
+  }
+  footer .left-footer .top-title {
+    font-size: 2rem;
+  }
+  footer .right-footer .footer-content .footer-content-data a {
+    font-size: 1.2rem;
+  }
+  footer .left-footer .middle-title {
+    font-size: 1.2rem;
+  }
+  .seventh-section .quote p {
+    font-size: 1.6rem;
+  }
+  .seventh-section .quote .author {
+    font-size: 1.6rem;
+  }
+  footer .left-footer .icons .icon {
+    width: 30px;
+    height: 30px;
+  }
+  footer .left-footer .icons .icon i {
+    font-size: 1rem;
+  }
+  #second .right-container {
+    padding-left: 8rem;
+  }
+  .third-card-btn {
+    padding: 1.3rem;
+    width: 18rem;
+    font-size: 1.3rem;
+  }
+  footer .right-footer {
+    width: 50%;
+  }
+  .sixth-container .heading {
+    top: 50%;
+    right: 9%;
+}
+.third-section .center-content .para {
+  font-size: 1.44rem;
+}
+}
+@media screen and (min-width:1533px){
+  .seventh-section .bottom-title-img{
+    bottom: -199px;
+}
+}
+@media screen and (min-width: 1800px) {
+  .seventh-section .bottom-title-img {
+    bottom: -254px;
+  }
+  .third-card-btn {
+    padding: 1.5rem;
+    width: 21rem;
+    font-size: 1.5rem;
+  }
+  .eight-section .para {
+    font-size: 1.7rem;
+  }
+  .sixth-container .heading {
+    top: 55%;
+    right: 15%;
+}
+}
+@media screen and (min-width: 2000px) {
+  .seventh-section .bottom-title-img {
+    bottom: -285px;
+  }
+  .eight-section .last-img{
+    bottom: -72px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  nav li {
+    font-size: 2rem;
+  }
+  nav .nav-container .search-bar {
+    height: 83px;
+    width: 348px;
+  }
+  nav button {
+    font-size: 2.5rem;
+    padding-right: 2rem;
+  }
+  .second-section .hiking-container {
+    gap: 70px;
+  }
+  .second-section .hiking-container .main-heading {
+    gap: 20px;
+  }
+  .second-section .sub-heading button {
+    width: 455px;
+    height: 124px;
+    border-radius: 74px;
+    font-size: 2.5rem;
+  }
+  .second-section .hiking-container .sub-heading .text {
+    font-size: 2.7rem;
+    line-height: 1.4;
+  }
+  .second-section .hiking-container .sub-heading {
+    gap: 55px;
+  }
+  .third-section .center-content h1 {
+    font-size: 6rem;
+  }
+  .third-section .center-content .para {
+    font-size: 2.5rem;
+  }
+  .third-section .center-content {
+    gap: 40px;
+  }
+  .third-section .card-container .card .card-bottom h2 {
+    font-size: 3rem;
+    font-weight: 550;
+    padding-bottom: 1.4rem;
+  }
+  .third-section .card-container .card .card-bottom p {
+    font-size: 2rem;
+  }
+  .third-section .card-container .card .card-bottom {
+    text-align: left;
+    padding: 5rem 2rem 7rem 2rem;
+  }
+  .third-card-btn {
+    padding: 2rem;
+    width: 32rem;
+    font-size: 3rem;
+    border-radius: 6rem;
+    cursor: pointer;
+  }
+  .fourth-section .sub-container .right-container {
+    padding: 0 6rem;
+    gap: 45px;
+  }
+  .fourth-section .sub-container .right-container .heading {
+    font-size: 5rem;
+  }
+  .fourth-section .sub-container .right-container .content {
+    font-size: 2.6rem;
+  }
+  .fourth-section .sub-container .right-container .btn {
+    padding: 31px;
+    width: 27rem;
+    font-size: 2.8rem;
+    border-radius: 6rem;
+  }
+  .fifth-section h2 {
+    font-size: 5rem;
+    margin-top: 14rem;
+    margin-bottom: 2rem;
+  }
+  .fifth-section p {
+    font-size: 2.8rem;
+    width: 60%;
+    padding-bottom: 23rem;
+  }
+  .sixth-container .top {
+    top: -7rem;
+  }
+  .sixth-container .heading .heading1,
+  .sixth-container .heading .heading2 {
+    text-align: right;
+    font-size: 8rem;
+  }
+  .seventh-section .card-container .card h2 {
+    font-size: 4rem;
+  }
+  .seventh-section .card-container .card p {
+    font-size: 2.8rem;
+    line-height: 1.3;
+  }
+  .seventh-section .card-container {
+    gap: 6rem;
+  }
+  .seventh-section .card-container .card h2 {
+    margin-bottom: 2.5rem;
+  }
+  .seventh-section .bottom-title-img {
+    bottom: -360px;
+  }
+  .seventh-section .quote p {
+    font-size: 3rem;
+  }
+  .seventh-section .quote .author {
+    font-size: 2.7rem;
+  }
+  .eight-section {
+    padding: 40rem 0rem;
+  }
+  .eight-section h2 {
+    font-size: 8rem;
+  }
+  .eight-section .para {
+    width: 50%;
+    font-size: 2.8rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .eight-section .search-bar input {
+    font-size: 2.8rem;
+    height: 7rem;
+  }
+  .eight-section .search-bar button {
+    height: 7rem;
+    left: -2.4rem;
+    padding: 2rem 2rem;
+    font-size: 2.2rem;
+    border-radius: 10rem;
+  }
+  footer .right-footer {
+    width: 45%;
+  }
+  footer .right-footer .footer-content .footer-content-heading {
+    font-size: 3.6rem;
+    padding-bottom: 2rem;
+  }
+  footer .left-footer .top-title {
+    font-size: 3.6rem;
+    padding-bottom: 2rem;
+  }
+  footer .right-footer .footer-content .footer-content-data a {
+    font-size: 2.2rem;
+  }
+  footer .left-footer .middle-title {
+    font-size: 2.2rem;
+    padding-bottom: 1.5rem;
+  }
+  footer .left-footer .icons {
+    display: flex;
+    gap: 39px;
+  }
+  footer .left-footer .icons .icon {
+    width: 60px;
+    height: 60px;
+  }
+  footer .left-footer .icons .icon i {
+    font-size: 2.4rem;
+  }
+  .third-card-btn {
+    padding: 3rem;
+    width: 34rem;
+    font-size: 2.5rem;
+  }
+  #second .right-container {
+    padding-left: 17rem;
+  }
+  .seventh-section .quote h2 {
+    font-size: 8rem;
+  }
+  .sixth-container .heading {
+    top: 49%;
+    right: 5%;
+}
+nav {
+  padding: 2rem 5rem 3rem 5rem;
+}
+}
